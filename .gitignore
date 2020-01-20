@@ -1,0 +1,13 @@
+package com.test.boss;
+
+import com.test.GameEntity;
+
+import java.util.Random;
+
+public class Boss extends GameEntity {
+
+    public Boss(int health, int attack) {
+        super(health, attack);
+    }
+
+    @Over
